@@ -1,0 +1,35 @@
+.flex-containe {
+    flex-direction: column;
+    padding: 1rem 0 9rem 0;
+}
+
+
+.flex-containe img {
+    height: 66%;
+    width: 24rem;
+}
+
+.para {
+    order: 1;
+}
+
+#skills .skills {
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+#skills img {
+    height: 45%;
+    width: auto;
+}
+
+#footer #map {
+    display: none;
+}
+
+#footer .contact .form-group {
+    justify-content: center;
+    align-items: center;
+}

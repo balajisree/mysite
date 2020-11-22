@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    width: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background: #83c5be;
+    height: 50px;
+    align-items: center;
+    color: #ffffff;
+
+}
+
+.container ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 17px;
+
+}
+
+.container ul li {
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+#home {
+    background: url(./assets/mike-kienle-qyzvVk6nEa8-unsplash\ \(1\).jpg) no-repeat center center/cover;
+}
+
+#home .content {
+    font-size: 2rem;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    color: #ffffff;
+
+    animation: fade-in 3s forwards ease-in;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.9;
+    }
+}
+
+#about {
+    background-color: #a2d2ff;
+}
+
+.flex-containe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.flex-contain div {
+    flex: 1;
+}
+
+.flex-containe img {
+    height: 90%;
+    width: 35rem;
+}
+
+
+
+#skills h1 {
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+
+
+
+.skills {
+    height: 300px;
+    display: grid;
+    padding-left: 120px;
+    grid-template-columns: repeat(4, 1fr);
+
+    justify-content: center;
+
+}
+
+.skills .grid {
+    justify-self: self-end;
+}
+
+
+
+
+
+.skills img {
+    height: 68%;
+    width: auto;
+    padding-left: 20px;
+}
+
+#footer {
+    display: flex;
+
+}
+
+#footer div {
+    flex: 1;
+}
+
+#footer .contact {
+    background: #a2d2ff;
+    height: 200px;
+
+    padding-top: 100px;
+
+}
+
+
+
+#footer .contact .form-group {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#footer .contact .form-group input,
+textarea {
+    width: 20rem;
+}
+
+#map1 {
+    height: 400px;
+    width: 700px;
+
+}
+
+.copyright {
+    padding-bottom: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #333;
+    text-align: center;
+}
+
+
+
+/* Optional: Makes the sample page fill the window. */
+
+
+
+
+.container ul :hover {
+    background: #333;
+
+
+}
