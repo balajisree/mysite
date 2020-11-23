@@ -138,41 +138,31 @@ nav {
     padding-left: 20px;
 }
 
-#footer {
-    display: flex;
-
-}
-
-#footer div {
-    flex: 1;
-}
-
-#footer .contact {
-    background: #a2d2ff;
-    height: 200px;
-
-    padding-top: 100px;
-
-}
 
 
 
-#footer .contact .form-group {
+
+.contact {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #a2d2ff;
+    height: 25rem;
 
 }
 
-#footer .contact .form-group input,
+.contact i {
+    color: #333;
+    padding: 1rem;
+}
+
+#form .contact .form-group input,
 textarea {
     width: 20rem;
 }
 
-#map1 {
-    height: 400px;
-    width: 700px;
 
-}
 
 .copyright {
     padding-bottom: 12px;
