@@ -16,14 +16,6 @@ $(window).on("load",function() {
   });
 
 
-let map;
-
-function initMap() {
-  map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 12.971599, lng: 77.594566 },
-    zoom: 8,
-  });
-}
 
 
 document.querySelectorAll(' a[href^="#"]').forEach(anchor => {
